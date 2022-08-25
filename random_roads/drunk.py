@@ -11,5 +11,5 @@ class TraditionalDrunk(Drunk):
     def __init__(self, name: str) -> None:
         super().__init__(name)
     
-    def walk() -> Tuple[int, int]:
+    def walk(self) -> Tuple[int, int]:
         return choice([(1, 0), (-1, 0), (0, -1), (0, 1)])
